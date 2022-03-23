@@ -4,20 +4,22 @@
 <!-- badges: end -->
 
 This R code provides tools for volume-outcome analyses
-as they are proposed in the methodological paper and to ascertain the
-reproducibility of the simulation study conducted in the paper.
+as they are proposed in the paper
+[*Modelling volume-outcome relationships in health care*](https://arxiv.org/abs/2203.12927v1)
+and to ascertain the reproducibility of the simulation study
+conducted in that paper.
 
 ## simulation\_generate.R
 
-This file contains code to simulate and save the data to be used in the
-analysis. One may freely adjust all parameters introduced in the paper.
+This file contains code to simulate data to be used in the analysis. One may
+freely adjust all parameters introduced in the paper.
 
 ## simulation\_analyze.R
 
 A volume-outcome-analysis is conducted on the data generated
 through `simulation_generate.R`. This includes coefficient estimates,
 p-values for the volume effect and odds ratios with respect to the
-volume effect. All results can be saved.
+volume effect.
 
 ## simulation\_plot.R
 
